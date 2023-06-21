@@ -24,7 +24,10 @@ Server_double.py runs a TCP server for 2 different ports for both Touchdesigner(
 
 By default:
 - `--port-td` port is `7653`
-- `--port-py` port is `7654`
+- `--port-py` port is `7654`I 
+
+- python3 server_double.py --host "ip address of the server" --port-td 7658(or new port) --port-py 7656(or new ip)
+- give a new values, without new value did not work on the test, also host IP.
 
 ```
 python server_double.py --host 192.168.1.69 --port-td 7653 --port-py 7654
